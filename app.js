@@ -18,8 +18,8 @@ const testSchema = {
 const Test = mongoose.model("Test", testSchema);
 
 const test = new Test({
-    test: "Hello"
-})
+  test: "Hello",
+});
 
 /* test.save(function(err){
     if(!err){
@@ -30,6 +30,12 @@ const test = new Test({
 app.get("/", function (req, res) {
   res.render("index");
 });
+
+app.get("/contact", function (req, res) {
+  res.render("contact");
+});
+
+
 
 app.listen(3000, function (req, res) {
   console.log("Server is running on port 3000, goodluck   ");

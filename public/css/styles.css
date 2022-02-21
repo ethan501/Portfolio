@@ -3,7 +3,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   /* background-size: cover; */
-  background-color: #242424;
+  background-color: #000000;
   font-family: monaco,Consolas,Lucida Console,monospace;
   color: #ffffff;
 }
@@ -11,9 +11,16 @@ body {
 nav {
   text-align: center;
   
-  padding: 50px 0 50px;
+  padding: 50px 170px 50px;
   word-spacing: 60px;
 }
+
+#brand {
+  word-spacing: normal;
+  letter-spacing: 5px;
+}
+
+
 
 a,
 a:hover,
@@ -61,9 +68,9 @@ hr{
 }
 .main {
   
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   width: auto;
-  margin: 5% 15% 25% 0%;
+  margin: 5% 15% 0% 0%;
   float: center;
   text-align: center;
   
@@ -87,7 +94,7 @@ ul{
 
 
 ul li::before {
-  content: "\2022";
+  content: "*";
   color: #4AF626;
   font-weight: bold;
   display: inline-block; 
@@ -95,6 +102,16 @@ ul li::before {
   margin-left: -1em;
 }
 
+p {
+  font-size: large;
+}
+
+#email:hover {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgb(73, 73, 73);
+  padding: 0 10px 0;
+  border-radius: 7px;
+}
 
 .btn {
   
@@ -103,7 +120,7 @@ ul li::before {
 }
 
 .secondary {
-  background: linear-gradient(#373f39, #000000);
+  background: linear-gradient(#000000, #000000);
   /* border-radius: 7px; */
   box-shadow: 0 2px 5px rgb(73, 73, 73);
   padding: 10px;
@@ -114,19 +131,21 @@ ul li::before {
 }
 
 #link-projects {
-  margin: 60px 0 60px 0;
+  margin: 60px 0 150px 0;
   color: chartreuse;
 }
 
 .projects {
   margin-bottom: 60px;
   display: grid;
-  grid-template-columns: 200px auto;
+  grid-template-columns: 200px 300px;
   border-radius: 7px;
   justify-content: center;
   margin-left: 30%;
   margin-right: 30%;
-  grid-gap: 100px;
+  grid-column-gap: 500px;
+  grid-row-gap: 500px;
+
 }
 
 .projectImg {
@@ -136,9 +155,9 @@ ul li::before {
 
 .projects-item {
   padding: 7px;
-  border-radius: 7px;
+ /*  border-radius: 7px;
   box-shadow: 2px 5px 5px chartreuse;
-  background-color: grey;
+  background-color: grey; */
 }
 
 .projects-items-title {
