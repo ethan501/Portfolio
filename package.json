@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio for job hunting",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ethan501/Portfolio.git"
+  },
+  "author": "Ethan Harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ethan501/Portfolio/issues"
+  },
+  "homepage": "https://github.com/ethan501/Portfolio#readme"
+}
