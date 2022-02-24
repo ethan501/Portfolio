@@ -160,6 +160,11 @@ margin-bottom: 130px;
 
 }
 
+.project-links:hover {
+  padding: 0;
+
+}
+
 .projectImg {
   width: 150px;
   height: 150px;
