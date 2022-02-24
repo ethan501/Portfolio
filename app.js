@@ -45,6 +45,3 @@ if (port == null || port == "") {
 }
 app.listen(port);
 
-app.listen(port, function (req, res) {
-  console.log("Server has started, goodluck   ");
-});
