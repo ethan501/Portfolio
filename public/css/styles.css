@@ -222,8 +222,23 @@ h4:hover {
 
 @media (max-width: 1500px) {
   body {
-    margin: 0, 5%, 0;
+    margin: 0, 0, 0;
     background-image: none;
+  }
+
+  .main {
+    padding: 0 0 0 0;
+    width: auto;
+    margin: 0 0 0 0;
+    float: center;
+    text-align: center;
+  }
+  .grid-contain-main {
+    display: grid;
+    grid-template-rows: auto;
+    grid-gap: 150px;
+    text-align: center;
+    padding: 0 20px 5px;
   }
   h1 {
     word-spacing: -20px;
