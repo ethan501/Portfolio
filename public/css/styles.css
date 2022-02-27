@@ -119,9 +119,9 @@ p {
 }
 
 .secondary {
-  background: linear-gradient(#000000, #000000);
+ /*  background: linear-gradient(#000000, #000000); */
   /* border-radius: 7px; */
-  box-shadow: 0 2px 5px rgb(73, 73, 73);
+ /*  box-shadow: 0 2px 5px rgb(73, 73, 73); */
   padding: 10px;
   width: auto;
   margin-bottom: 130px;
@@ -247,7 +247,7 @@ h4:hover {
     word-spacing: 5px;
     text-align: center;
     
-    padding: 0;
+    padding: 0 0 30px;
   }
   #brand {
     visibility: hidden;
@@ -291,7 +291,7 @@ h4:hover {
     grid-column-gap: 50px;
     grid-row-gap: 50px;
     text-align: center;
-    padding-right: 50px;
+   
   }
 
   .skills-grid {
