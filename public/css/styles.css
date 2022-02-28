@@ -236,13 +236,19 @@ h4:hover {
   .grid-contain-main {
     display: grid;
     grid-template-rows: auto;
-    grid-gap: 150px;
-    text-align: center;
+    grid-gap: 50px;
+    text-align: left;
     padding: 0 20px 5px;
   }
   h1 {
     word-spacing: -20px;
-    padding-right: 30px;
+    padding: 50px 20px 0 0;
+    margin: 0%;
+    text-align: center;
+  }
+
+  h1:hover{
+    padding: 0 !important;
   }
   nav {
     word-spacing: 5px;
@@ -271,7 +277,8 @@ h4:hover {
   }
 
   .projects-items-content {
-    text-align: center;
+    text-align: left;
+    padding-left: 100px;
   }
 
   .grid-contain-resume {
@@ -291,7 +298,7 @@ h4:hover {
     margin-right: 30%; */
     grid-column-gap: 50px;
     grid-row-gap: 50px;
-    text-align: center;
+    text-align: left;
    
   }
 
